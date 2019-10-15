@@ -10,6 +10,7 @@
             "email": "tbq2616@sina.com"
         }
     ],
-    "require": {
-    }
+    "autoload": {
+        "psr-4": { "yiiapps\\yuqiutils\\": "" }
+    },
 }

@@ -1,5 +1,7 @@
 <?php
 
+namespace yiiapps\yiqiutils\libs;
+
 class StringUtils
 {
     public static function valiName($name)
