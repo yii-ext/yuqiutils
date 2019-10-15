@@ -1,0 +1,15 @@
+{
+    "name": "yiiapps/yuqiutils",
+    "description": "我的yii2工具集",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "mit",
+    "authors": [
+        {
+            "name": "tbq",
+            "email": "tbq2616@sina.com"
+        }
+    ],
+    "require": {
+    }
+}
