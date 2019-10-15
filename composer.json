@@ -3,14 +3,19 @@
     "description": "我的yii2工具集",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
-    "license": "mit",
+    "license": "MIT",
     "authors": [
         {
             "name": "tbq",
             "email": "tbq2616@sina.com"
         }
     ],
-    "autoload": {
-        "psr-4": { "yiiapps\\yuqiutils\\": "" }
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
     },
+    "autoload": {
+        "psr-4": {
+            "yiiapps\\yuqiutils\\": ""
+        }
+    }
 }
