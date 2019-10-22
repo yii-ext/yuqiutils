@@ -1,6 +1,6 @@
 <?php
 
-namespace yiiapps\yiqiutils\libs;
+namespace yiiexttbq\yiqiutils\libs;
 
 class StringUtils
 {

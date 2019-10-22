@@ -1,6 +1,6 @@
 <?php
 
-namespace yiiapps\yuqiutils;
+namespace yiiexttbq\yuqiutils;
 
 use Yii;
 use yii\filters\AccessControl;

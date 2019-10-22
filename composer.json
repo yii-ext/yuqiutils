@@ -1,5 +1,5 @@
 {
-    "name": "yiiapps/yuqiutils",
+    "name": "yiiexttbq/yuqiutils",
     "description": "我的yii2工具集",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "yiiapps\\yuqiutils\\": ""
+            "yiiexttbq\\yuqiutils\\": ""
         }
     }
 }

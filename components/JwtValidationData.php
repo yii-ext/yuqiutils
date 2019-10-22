@@ -1,5 +1,5 @@
 <?php
-namespace yiiapps\yiqiutils\components;
+namespace yiiexttbq\yiqiutils\components;
 
 class JwtValidationData extends \sizeg\jwt\JwtValidationData
 {
