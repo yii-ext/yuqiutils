@@ -15,11 +15,12 @@ class Controller extends \yii\web\Controller
 
     public function render($tpl, $data = [])
     {
-        $data['appname'] = \Yii::$app->name;
-        $data['static_website'] = \Yii::$app->params['static_website'];
+        $data['appname'] = Yii::$app->name;
+        $data['static_website'] = Yii::$app->params['static_website'];
+        $data['isGuest'] = Yii::$app->user->isGuest;
 
         if ($userId = Yii::$app->user->getId()) {
-            $data['username'] = \Yii::$app->user->identity->username;
+            $data['username'] = Yii::$app->user->identity->username;
         }
 
         if ($this->isJson()) {
